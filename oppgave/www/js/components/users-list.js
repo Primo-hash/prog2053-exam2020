@@ -52,7 +52,6 @@ class UsersList extends LitElement {
           </ul>
         </div>
         <div class="column">
-          <h2>Rediger bruker</h2>
           <edit-user .user="${this.selectedUser}"></edit-user>
         </div>
       </div>
